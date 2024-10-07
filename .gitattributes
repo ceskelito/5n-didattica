@@ -1,0 +1,5 @@
+*.pdf filter=lfs diff=lfs merge=lfs -text
+./SISIT/Lo[[:space:]]Russo[[:space:]]Bianchi[[:space:]]-[[:space:]]Sistemi[[:space:]]e[[:space:]]reti[[:space:]]Openschool[[:space:]]3.pdf filter=lfs diff=lfs merge=lfs -text
+./GPO/Gestione_Progetto_Libro_V2_02_ebook.pdf filter=lfs diff=lfs merge=lfs -text
+./orario_provvisorio_da-martedi-1-ottobre_classi.pdf filter=lfs diff=lfs merge=lfs -text
+./Inglese/libro[[:space:]]inglese[[:space:]]digiworld.pdf filter=lfs diff=lfs merge=lfs -text
