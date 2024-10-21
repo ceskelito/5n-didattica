@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#c_00, #c_01, #c_02{
+    border-top : none;
+}
+
+#c_20, #c_21, #c_22{
+    border-bottom: none;
+}
+
+#c_00, #c_10, #c_20{
+    border-left: none;
+}
+
+#c_02, #c_12, #c_22{
+    border-right: none;
+}
+
+.cell{
+    width: 70px;
+    height: 70px;
+    border: solid black 2px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.symbol-o, .symbol-x{
+    margin: auto;
+}
+
+#grid{
+    width: 250px;
+    height: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
