@@ -6,12 +6,11 @@
     <title>TRISSS</title>
     <link rel="stylesheet" href="symbols.css">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="basicTrisLogic.js"></script>
 </head>
 <body>
 
-    
-
+    <img src="symbols/1117_ef1cc.svg" id="splash" style="z-index: -1;"></img>
     <div id="grid">
         <div class="cell" id="c_00" onmouseenter="previewCell(this)" onmouseleave="clearCell(this)" onclick="fillCell(this)"></div>
         <div class="cell" id="c_01" onmouseenter="previewCell(this)" onmouseleave="clearCell(this)" onclick="fillCell(this)"></div>
@@ -22,9 +21,10 @@
         <div class="cell" id="c_20" onmouseenter="previewCell(this)" onmouseleave="clearCell(this)" onclick="fillCell(this)"></div>
         <div class="cell" id="c_21" onmouseenter="previewCell(this)" onmouseleave="clearCell(this)" onclick="fillCell(this)"></div>
         <div class="cell" id="c_22" onmouseenter="previewCell(this)" onmouseleave="clearCell(this)" onclick="fillCell(this)"></div>
+        <!--<img id="overlap" src="symbols/circle.svg" alt="">-->
     </div>
 
-    <p style = "opacity: 0%;" id = "player">x</p>
+    <p style = "opacity: 0%; width: 0px; height: 0px;" id = "actualPlayer">cross</p>
 <script>
     
 
