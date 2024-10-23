@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "tris-title";
+    src: url("../fonts/CAVEMAN_.TTF");
+}
+
+@font-face {
+    font-family: "tris-subtitle";
+    src: url("../fonts/lexo.ttf");
+}
+
+#tris-title{
+   margin: auto;
+}
+
+#tris-title > p{
+    font-family: "tris-title";
+    font-size: 60px;
+    color:rgb(3, 99, 19);
+
+    position: relative;
+
+    margin: auto;
+    margin-left: 4%;
+}
+
+#tris-subtitle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    margin: auto;
+    margin-top: -20px;
+}
+
+#tris-subtitle > p{
+    font-family: "tris-subtitle";
+    font-size: 30px;
+    /* color: rgb(6, 60, 6); */
+
+    margin: 5px;
+}
+

@@ -1,11 +1,11 @@
 body{
-    display: flex;
+    display: grid;
     width: 100vw;
     height: 100vh;
 
     background:
-        linear-gradient(-90deg, rgba(0, 0, 0, .04) 1px, transparent 1px),
-        linear-gradient(rgba(0,0,0,.04) 1px, transparent 1px),
+        linear-gradient(-90deg, rgba(0, 0, 0, .10) 1px, transparent 1px),
+        linear-gradient(rgba(0,0,0,.15) 1px, transparent 1px),
         #f2f2f2;
     background-size:
         20px 20px,
@@ -16,47 +16,34 @@ body{
         80px 80px,
         80px 80px,
         80px 80px;
-
-        backg
-}
-
-.cell{
-    width: 70px;
-    height: 70px;
-    background-color: white;
-    display: flex;
-
-    border: 2px;
-
-    
-}
-
-.symbol{
-    margin: auto;
+    background-position:
+        0.25%;
 }
 
 #grid{ 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3.5px 3.5px;
+    grid-template-rows: repeat(3, 1fr);
 
-    width: auto;
-    height: auto;
+    width: 240px;
+    height: 240px;
     margin: auto;
 
-    background-color: black;
+    background-color: transparent;
 }
 
-/* #overlap{
-    z-index: 2;
-    position: relative;
-    top: -184px;
-    width: 150px;
-    margin: auto;
-    align-items: center;
-    vertical-align: middle;
+.cell{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: solid black 2px;
 
-} 
+    display: flex;
+}
+
+.symbol{
+    margin: auto;
+}
 
 #c_00, #c_10, #c_20{
     border-left: none;
@@ -71,4 +58,3 @@ body{
     border-right: none;
 }
 
-*/

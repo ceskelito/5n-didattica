@@ -1,0 +1,23 @@
+#scoreboard{
+    margin: auto;
+}
+
+#scoreboard > span{
+    display: flex;
+}
+
+#scoreboard > span > p{
+    font-family: "tris-subtitle";
+    font-size: 40px;
+
+    margin: 0px;
+    margin-right: 3px;
+}
+
+#x-score > p{
+    color: red;
+}
+
+#o-score > p{
+    color: blue;
+}

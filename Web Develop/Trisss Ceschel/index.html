@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRISSS</title>
-    <link rel="stylesheet" href="symbols.css">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style/symbols.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/fontStyle.css">
+    <link rel="stylesheet" href="style/scoreboard.css">
+
     <script src="basicTrisLogic.js"></script>
 </head>
 <body>
 
-    <img src="symbols/1117_ef1cc.svg" id="splash" style="z-index: -1;"></img>
+    <div id="tris-title">
+        <p>trisss!</p>
+    </div>
+
+    <div id="tris-subtitle">
+        <p>ispirato da tris! </p>
+        <p>il gioco da tavolo</p>
+    </div>
+
     <div id="grid">
         <div class="cell" id="c_00" onmouseenter="previewCell(this)" onmouseleave="clearCell(this)" onclick="fillCell(this)"></div>
         <div class="cell" id="c_01" onmouseenter="previewCell(this)" onmouseleave="clearCell(this)" onclick="fillCell(this)"></div>
@@ -21,7 +33,18 @@
         <div class="cell" id="c_20" onmouseenter="previewCell(this)" onmouseleave="clearCell(this)" onclick="fillCell(this)"></div>
         <div class="cell" id="c_21" onmouseenter="previewCell(this)" onmouseleave="clearCell(this)" onclick="fillCell(this)"></div>
         <div class="cell" id="c_22" onmouseenter="previewCell(this)" onmouseleave="clearCell(this)" onclick="fillCell(this)"></div>
-        <!--<img id="overlap" src="symbols/circle.svg" alt="">-->
+    </div>
+
+    <div id="scoreboard">
+        <span id="x-score">
+            <p>x</p>
+            <p>x</p>
+            <p>x</p>
+        </span>
+        <span id="o-score">
+            <p>o</p>
+            <p>o</p>
+        </span>
     </div>
 
     <p style = "opacity: 0%; width: 0px; height: 0px;" id = "actualPlayer">cross</p>
